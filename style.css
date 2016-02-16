@@ -1,0 +1,32 @@
+.heading {
+
+}
+
+h1, h2 {
+  font-weight: bolder;
+  /* text-decoration: underline; */
+  text-shadow: 2px 2px #aaf;
+  color: #55f;
+}
+
+h3 {
+  text-shadow: 2px 2px #0ff;
+  color: #0aa;
+}
+
+body {
+  background-color: #000;
+  color: white;
+}
+
+::selection {
+  color: #fff;
+  background-color: #f00;
+  text-shadow: none;
+}
+
+::-moz-selection {
+  color: #fff;
+  background-color: #f00;
+  text-shadow: none;
+}
