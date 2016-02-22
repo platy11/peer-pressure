@@ -1,5 +1,5 @@
-.heading {
-
+body {
+  overflow-x: hidden;
 }
 
 h1, h2 {
@@ -17,6 +17,7 @@ h3 {
 body {
   background-color: #000;
   color: white;
+  font-family: 'Coming Soon', Roboto, cursive;
 }
 
 ::selection {
@@ -29,4 +30,22 @@ body {
   color: #fff;
   background-color: #f00;
   text-shadow: none;
+}
+
+footer {
+  transform: translateX(-6px);
+  position: absolute;
+  width: 99%;
+  margin: 0 0 0 0;
+  padding: 10px;
+  background-color: #444;
+}
+
+[data-white] {
+  color: white;
+  text-shadow: none;
+}
+
+.footer-content {
+  margin-left: 20px
 }
